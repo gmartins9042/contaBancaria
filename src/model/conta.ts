@@ -1,4 +1,4 @@
-export class Conta {
+export abstract class Conta {
 
     private _numero: number;
     private _agencia: number;
@@ -46,7 +46,7 @@ export class Conta {
         this._titular = titular;
     }
 
-    public get saldo()  {
+    public get saldo() {
         return this._saldo;
     }
 
