@@ -46,7 +46,7 @@ export class Conta {
         this._titular = titular;
     }
 
-    public get saldo() {
+    public get saldo()  {
         return this._saldo;
     }
 
